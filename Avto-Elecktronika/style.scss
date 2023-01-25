@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1420px;
+  position: relative;
+}
+
+.main {
+  background-image: url(./Images/products/Banner.png);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 55px 25px 24px 40px;
+  position: relative;
+}
+
+.pointe {
+  display: flex;
+  align-items: center;
+  width: 99%;
+  padding-top: 110px;
+
+  &__icon--right {
+    width: 100%;
+    padding: 0 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon--right img {
+    background: #6E7191;
+    opacity: 0.45;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+    padding: 11px 15px 11px 12px;
+    border-radius: 50%;
+  }
+
+  &__icon--right img:last-child {
+    padding: 11px 12px 11px 15px;
+
+  }
+}
+
+.point {
+  display: flex;
+  gap: 5px;
+
+  &__img {
+    margin-left: 580px;
+    width: 15px;
+    height: 8px;
+  }
+
+  &__middle {
+    width: 55px;
+    height: 45px;
+    margin-left: 560px;
+  }
+}
+
+.about {
+  &__letter {
+    margin-top: 25px;
+    margin-left: 59px;
+  }
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+  margin-top: 65px;
+}
+
+.cam {
+  width: 290px;
+  position: relative;
+}
+
+.cam img {
+  width: 305px;
+  height: 200px;
+}
+
+.label img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 82px;
+  height: 32px;
+}
+
+.left {
+  position: absolute;
+  top: 85px;
+}
+
+.left img {
+  width: 10px;
+  height: 15px;
+}
+
+.picture {
+  width: 150px;
+  height: 80px;
+}
+
+.right {
+  position: absolute;
+  top: 85px;
+  right: 17px;
+}
+
+.right img {
+  width: 10px;
+  height: 15px;
+}
+
+.letter {
+  display: flex;
+  gap: 95px;
+}
+
+.letter__word img {
+  width: 280px;
+  height: 75px;
+  margin-left: 145px;
+  margin-top: 15px;
+}
+
+.letter__word-2 img {
+  width: 270px;
+  height: 95px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.letter__word-3 img {
+  width: 280px;
+  height: 75px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+
+  &__img {
+    margin-left: 145px;
+  }
+
+  &__png {
+    margin-left: 350px;
+  }
+
+  &__btn {
+    position: absolute;
+    right: 150px;
+  }
+}
+
+.poiint {
+  margin-left: 600px;
+  margin-top: 50px;
+}
+
+//--------------RESPONSIVE SECTION--------------------------------------//
+@media only screen and (max-width:1200px) {}
+
+//--------------RESPONSIVE SECTION--------------------------------------//
